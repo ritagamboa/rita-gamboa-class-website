@@ -39,5 +39,44 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
-    
+img { src : url("re.GIF");
+align-items: left;
+display: block;
+}
 a { color: rgb(253, 4, 128); }
+#about { background-color: rgb(255, 219, 248);
+border: 2px dotted rgb(204, 118, 161);
+border-radius: 10px;
+width: 50%;
+align-items: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#games { background-color: rgb(255, 219, 248);
+border: 2px dotted rgb(204, 118, 161);
+border-radius: 10px;
+width: 75%;
+align-items: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.image-container1 {
+ display: flex;
+ gap: 0px;        
+}
+.image-container1 img {
+ width: 400px;
+ height: 200px;
+ object-fit: cover;
+}
+.image-container2 {
+ display: flex;
+ gap: 0px;        
+}
+.image-container2 img {
+ width: 400px;
+ height: 200px;
+ object-fit: cover;
+}
