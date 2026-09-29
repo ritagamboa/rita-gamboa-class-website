@@ -29,7 +29,11 @@ font-size: 12px;
 text-align: center; 
 list-style-position: inside;
 padding-left: 0;
-};
+}
+h4 { color: rgb(204, 118, 161);
+font-family: Monospace;
+font-size: 20px;
+text-align: center; }
 img { src: url("ditto.gif");
     width: 150px;
     height: 150px;
@@ -64,16 +68,18 @@ margin-right: auto;
 }
 .image-container1 {
  display: flex;
- gap: 0px;        
+ gap: 0px; 
+ padding: 10px;       
 }
 .image-container1 img {
  width: 400px;
  height: 200px;
  object-fit: cover;
-}
+ }
 .image-container2 {
  display: flex;
- gap: 0px;        
+ gap: 0px; 
+ padding: 10px;       
 }
 .image-container2 img {
  width: 400px;
