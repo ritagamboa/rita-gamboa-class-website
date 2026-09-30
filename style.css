@@ -65,24 +65,25 @@ align-items: center;
 display: block;
 margin-left: auto;
 margin-right: auto;
+padding: 10px
 }
+.games {
+    display: grid;
+  flex-direction: row;  
+}
+
 .image-container1 {
  display: flex;
+ flex-direction: row;
+ flex: wrap;
+ align-items: space-evenly;
  gap: 0px; 
- padding: 10px;       
-}
-.image-container1 img {
- width: 400px;
- height: 200px;
+ padding: 10px;   
+ flex-shrink: 0;   
+ } 
+
+ .image-container1 img {
+  width: 150px;
+ height: 100px;
  object-fit: cover;
  }
-.image-container2 {
- display: flex;
- gap: 0px; 
- padding: 10px;       
-}
-.image-container2 img {
- width: 400px;
- height: 200px;
- object-fit: cover;
-}
