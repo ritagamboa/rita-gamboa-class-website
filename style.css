@@ -35,19 +35,14 @@ font-family: Monospace;
 font-size: 20px;
 text-align: center; }
 img { src: url("ditto.gif");
-    width: 150px;
-    height: 150px;
-object-fit: cover;}
+    width: 100x;
+    height: 150px;}
 img { src: url("heartpop.gif");
 display: block;
 margin-left: auto;
 margin-right: auto;
 }
-img { src: url("portrait.JPG");
-    width: 150px;
-    height: 200px;
-object-fit: cover;
-}
+
 img { src : url("re.GIF");
 align-items: left;
 display: block;
